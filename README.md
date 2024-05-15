@@ -3,11 +3,11 @@ Caesar şifresi, düz metindeki her harfi alfabede belirli sayıda pozisyondaki 
 
 Örnekler
 
-"PAVANKUMAR" mesajını 3 kaydırma ile şifrelemek isterseniz, ortaya çıkan şifreli metin "SDYDQNXPDU" olacaktır.
+"ANKARA" mesajını 3 kaydırma ile şifrelemek isterseniz, ortaya çıkan şifreli metin "DQNDUD" olacaktır.
 
 Şifre Çözme
 
-"SDYDQNXPDU" şifreli metnini 3 kaydırma ile çözmek isterseniz, orijinal düz metin "PAVANKUMAR" kurtarılacaktır.
+"DQNDUD" şifreli metnini 3 kaydırma ile çözmek isterseniz, orijinal düz metin "ANKARA" kurtarılacaktır.
 
 Dosyalar
 
