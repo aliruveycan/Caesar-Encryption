@@ -17,3 +17,7 @@ index.html: Kullanıcı arayüzünü ve JavaScript kodunu içeren HTML dosyası.
 style.css: Kullanıcı arayüzünü şekillendirmek için CSS dosyası.
 script.js: Caesar şifreleme algoritmasının uygulanmasını içeren JavaScript dosyası.
 README.md: Proje hakkında talimatlar ve bilgiler içeren dosya.
+
+
+![Görüntü 16 05 2024 01 08](https://github.com/aliruveycan/Caesar-Encryption/assets/113598241/b07fade5-274b-4698-9a1e-5e13718ef6f0)
+
