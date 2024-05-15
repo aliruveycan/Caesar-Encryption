@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+
+<head>
+    <title>Caesar Şifreleme</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    
+    <div class="container">
+        <div id="heading-container">
+            <h1>CAESAR ŞİFRELEME</h1>
+        </div>
+        
+        <div id="main-container">
+            <div class="box">
+                <div class="heading">
+                    <h2>Kontrol</h2>
+                </div>
+                <form id="controls">
+                    <div class="row">
+                        <div>
+                            <input type="radio" name="code" id="encode" value="encode" checked="checked" /><label
+                                for="encode">Şifreleme</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="code" id="decode" value="decode" /><label
+                                for="decode">Şifre Çözme</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <div>
+                                <span>Kaydırma Miktarı: </span><input type="text" name="shift" id="shift-input" maxlength="4"
+                                    size="4" value="3" />
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <span>Mod: </span><input type="text" name="mod" id="mod-input" maxlength="4" size="4"
+                                    value="36" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div><span>KARAKTERLER</span></div>
+                        <div>
+                            <input type="text" name="alphabet" id="alphabet-input"
+                                value="abcdefghijklmnopqrstuvwxyz0123456789çğıöşü" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <div>HARF DURUMU</div>
+                            <select name="letter-case" id="letter-case">
+                                <option value="1">Mevcut Durumu Koru</option>
+                                <option value="2">Küçük Harf</option>
+                                <option value="3">Büyük Harf</option>
+                            </select>
+                        </div>
+                        <div>
+                            <div>YABANCI KARAKTERLER</div>
+                            <select name="foreign-chars" id="foreign-chars">
+                                <option value="1">Kaldır</option>
+                                <option value="2">Yoksay</option>
+                            </select>
+                        </div>
+                    </div>
+                    <input type="submit" name="submit" id="submit" value="Çalıştır" />
+                </form>
+            </div>
+            <div class="box">
+                <div class="heading">
+                    <h2 id="heading-input">Metin</h2>
+                </div>
+                <textarea placeholder="Metin Gir" rows="20" id="input-text"></textarea>
+                <p id="status"></p>
+            </div>
+            <div class="box">
+                <div class="heading">
+                    <h2 id="heading-output">Şifreli Metin</h2>
+                </div>
+                <textarea readonly placeholder="" rows="20" id="output-text"></textarea>
+            </div>
+        </div>
+    </div>
+    <div>
+  <center class="copyright"><p>Copyright © 2024 -- ALİ RÜVEYCAN</p></center>   
+</div>
+    <script src="script.js"></script>
+
+
